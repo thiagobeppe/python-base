@@ -15,7 +15,7 @@ infix_calculator.py sum 5 2
 7
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "Thiago Beppe"
 
 import sys
@@ -27,8 +27,14 @@ VALID_OPERATIONS = {
     "div": lambda x,y: x/y,
 }
 
+def validate_inputs(arguments):
+    if len(arguments) != 3 or arguments[0] not in VALID_OPERATIONS.keys() or not arguments[1].isdigit() or not arguments[2].isdigit() :
+        print("Invalid inputs")
+        sys.exit(1)
+
 if __name__ == "__main__":
     arguments = sys.argv[1:]
+    validate_inputs(arguments)
     if len(arguments)>=4 or len(arguments) == 0:
         operation = input("Selecione uma das operações válidas (sum,sub,mul,div): \n")
         n1 = input("adicione o primeiro valor: \n")
