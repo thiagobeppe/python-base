@@ -18,6 +18,7 @@ __author__ = "Thiago Beppe"
 __license__ = "Unlicense"
 
 import os
+
 LANGUAGES_DICT = {
     "pt_BR":"Olá, mundo!",
     "it_IT":"Ciao, Mondo!",
