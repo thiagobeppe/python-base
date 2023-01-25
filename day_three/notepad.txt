@@ -1,0 +1,9 @@
+Tag: teste 
+Title: Testando
+Text: este é meu texto teste 
+Tag: outro_teste 
+Title: Testando
+Text: este é meu outro texto de teste 
+Tag: teste 
+Title: Testando
+Text: vai carai 
