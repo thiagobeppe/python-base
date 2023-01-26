@@ -1,5 +1,0 @@
-2023-01-26 08:02:51,044 loggin.py DEBUG l:25 f:logging_example.py: testing_debug
-2023-01-26 08:02:51,044 loggin.py INFO l:26 f:logging_example.py: testing_info
-2023-01-26 08:02:51,044 loggin.py CRITICAL l:27 f:logging_example.py: testing_critical
-2023-01-26 08:02:51,044 loggin.py WARNING l:28 f:logging_example.py: testing_warning
-2023-01-26 08:02:51,044 loggin.py ERROR l:29 f:logging_example.py: testing_error
